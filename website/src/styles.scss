@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+@import "assets/variables";
+
+html, body, p{
+  font-family: 'Montserrat', sans-serif;
+  color: $white;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Open Sans', sans-serif;
+  color: $white;
+}
+span, a, a:hover{
+  text-decoration: none;
+  color: $white;
+}
+li{
+  text-decoration: none;
+  color: white;
+}
+
+body{
+  background: $dark;
+  opacity: 0.8;
+  z-index: -1000;
+}
+
+.container{
+  padding: 0 10% 0 10%;
+}
+
+.footer{
+  background: transparent;
+  color: $white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  .container{
+    height: 45px;
+    .icons .fab:first-child{
+      padding-left: 0;
+    }
+    .icons .fab{
+      padding-left: 2%;
+    }
+  }
+}
