@@ -1,0 +1,18 @@
+{
+  "header": {
+    "title": "Sheetal Gara",
+    "menu": ["Work", "Protfolio", "Contact"]
+  },
+  "footer": {
+    "contact_icons": ["", "", "", ""]
+  },
+  "home": {
+
+  },
+  "work": {
+
+  },
+  "contact": {
+
+  }
+}
