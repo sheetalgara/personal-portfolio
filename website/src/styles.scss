@@ -28,20 +28,43 @@ body{
 .container{
   padding: 0 10% 0 10%;
 }
-
+.component-container{
+  margin-top: 50px;
+  h4,h2,h3{
+    text-align: center;
+  }
+}
 .footer{
-  background: transparent;
+  background: $dark;
   color: $white;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 1000 !important;
   .container{
     height: 45px;
+    .icons{
+      padding-top: 5px;
+      border-top: 1px solid $white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
     .icons .fab:first-child{
       padding-left: 0;
     }
     .icons .fab{
       padding-left: 2%;
+      font-size: 1.4em;
     }
   }
+}
+
+html, body { height: 100vh; overflow-y: scroll; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.cdk-overlay-backdrop.cdk-overlay-backdrop-showing {
+  opacity: 0.75;
+}
+.cdk-overlay-dark-backdrop {
+  background: $dark;
 }

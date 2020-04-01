@@ -1,0 +1,13 @@
+<div class="work-dialog-container" *ngIf = "data">
+  <h2 class = "title">{{data.title}}</h2>
+  <div class="work-dialog-content">
+    <div class="image-container" *ngIf="data.images && data.images.length > 0">
+      <div class = "popup-image" *ngFor = "let path of data.images">
+        <img [src]="path">
+      </div>
+    </div>
+    <div class="popup-text">
+      <p>{{data.text}}</p>
+    </div>
+  </div>
+</div>

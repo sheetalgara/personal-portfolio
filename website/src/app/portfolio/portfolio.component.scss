@@ -1,0 +1,17 @@
+.component-container{
+  height: auto;
+  .images-container{
+    width: auto;
+    padding: 5px;
+    height: 650px !important;
+    overflow-y: scroll;
+    .image-tile{
+      img{
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+
+

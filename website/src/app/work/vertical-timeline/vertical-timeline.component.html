@@ -1,0 +1,29 @@
+<div class="time-line-container">
+  <div class="time-line-block" *ngFor = "let item of data; let i = index">
+    <div class="content left" >
+      <ng-template [ngIf]="item.direction == allAlignments.Left">
+        <div class="time-line-text" (click)="openDialog(item)">
+          <h3>{{item.title}}</h3>
+        </div>
+        <div class = "triangle-right">
+
+        </div>
+      </ng-template>
+    </div>
+    <div class = "divider">
+      <div class="circle">
+        <span>{{item.circleText}}</span>
+      </div>
+    </div>
+    <div class="content right" >
+      <ng-template [ngIf]="item.direction == allAlignments.Right">
+        <div class = "triangle-left">
+
+        </div>
+        <div class="time-line-text" (click)="openDialog(item)">
+          <h3>{{item.title}}</h3>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+</div>

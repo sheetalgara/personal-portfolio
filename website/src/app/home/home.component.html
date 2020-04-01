@@ -1,0 +1,14 @@
+<div class = "container">
+  <h1 class = "title">{{hContent.title || ""}} <span class="name">Sheetal</span></h1>
+  <div class="wallpapers">
+    <div class="image">
+      <img *ngIf="showWallpaper" @disappear [src]= "wallpaper.src">
+    </div>
+    <div class="fixed-quote">
+      <h2>I'm an engineer who enjoys</h2>
+    </div>
+    <div class="quote">
+        <h2  *ngIf="showWallpaper" @disappear>{{wallpaper.quote}}</h2>
+    </div>
+  </div>
+</div>

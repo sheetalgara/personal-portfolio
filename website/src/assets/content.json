@@ -1,18 +1,191 @@
 {
   "header": {
-    "title": "Sheetal Gara",
-    "menu": ["Work", "Protfolio", "Contact"]
-  },
-  "footer": {
-    "contact_icons": ["", "", "", ""]
+    "title": "SG",
+    "menu": [{"name":  "Art", "path": "art", "class": ""},
+      {"name":  "Work", "path": "work", "class": ""},
+      {"name":  "Contact", "path": "contact", "class": ""}]
   },
   "home": {
+    "title": "Hi ! This is",
+    "wallpapers": [
+      {
+        "src": "assets/images/wallpapers/4.PNG",
+        "quote": "drawing."
+      },
+      {
+        "src": "assets/images/wallpapers/5.PNG",
+        "quote": "dancing."
+      },
+      {
+        "src": "assets/images/wallpapers/6.PNG",
+        "quote": "capturing moments."
+      },
+      {
+        "src": "assets/images/wallpapers/6.PNG",
+        "quote": "creating usable and discoverable products."
+      }
+    ]
 
   },
   "work": {
-
+    "title": "My Work",
+    "alignment": "0",
+    "timeLineData": [
+      {
+        "circleText": "",
+        "title": "Visualization of application metrics data.",
+        "images": ["assets/images/work/1.PNG"],
+        "company": "Ultimate Software",
+        "date": "April 2019 - Present",
+        "text": "Description : \n\nApplication metrics play a vital role in monitoring the health of the application to improve the availability & performance of the product. In an enterprise that gives importance to DevOps culture, Site Reliability Engineer (SRE) takes responsibility to meet server-level objectives by using SLIs.\n\nHere I worked on a project to build key indicators of different features. We implemented this using TIG Stack (Telegraph Influx Grafana) where we used the stats plugin to get the metric data & store time-series data in InfluxDb. Visualization of this huge data to give meaningful insights was a challenge. \n\nThe picture here gives a snapshot of the visualization we have built to achieve this. We also built alerts around this visualization to resolve production issues as soon as they occur. \n\nTools : Python, Flask, Telegraf, InfluxDb, Grafana "
+      },
+      {
+        "company": "AT&T",
+        "date": "December 2016 - April 2019",
+        "circleText": "",
+        "images": [],
+        "title": "Configuring IBM Security access management appliances for Web and Mobile applications.",
+        "text": "Description : \n\n\n- Designed and developed Ansible Roles and worked with Custom Modules to automate ISAM    Appliance. Custom Modules provide the interface to python idempotent functions in IBM Security Package. Configured ISAM 9 (IBM Security Access Manager) appliance for Web and mobile applications through Ansible. \n- Completely automated the process of building OAuth, OpenID and SAML stacks with Ansible and Jenkins. \n- Used Jenkins to automate the orchestration process with the help of Ansible plugin which invokes Ansible playbooks. \n- Created Jenkins jobs, to take periodical snapshots archiving application and messages logs and to trigger emails to the production support team with status reports and alerts. \n- Worked with Python Package to manage IBM Security Appliances using REST APIs.\n\nTools : Ansible, Jenkins, Python, OAuth, OpenID, SAML\n"
+      },
+      {
+        "company": "Medequip Services",
+        "date": "January 2014 - June 2014",
+        "circleText": "",
+        "title": "Computer Tomography Reconstruction of 2D projection.",
+        "images": ["assets/images/work/2.PNG", "assets/images/work/3.PNG"],
+        "text": "Description : \n\nThis project explains how to reconstruct a 3D image using projection data and perform operations on reconstructed objects. Computed Tomography reconstruction is a technique where a series of slices or individual images within a body are stacked and correlated with each other to create a meaningful image. When a 2D projection slices through the object, we then get a set of 1D parallel projections. The most commonly used reconstruction algorithm is the filtered back-projection method.\n\nI began with 2D projection images and developed them in photoshop. Using the Computer Tomography Reconstruction Module available in VG Studio Max allows projection images to be imported directly from a CT system. The module converts projection images into volume data based on the Feldkamp algorithm. It also improves image quality using the standard Volume Graphics bear hardening correction. \n\nTools : VG Studio Max 2.2, Image Processing, Photoshop, 2D Projections\n"
+      },
+      {
+        "circleText": "",
+        "title": "AeroTriX Super challenge '13",
+        "images": ["assets/images/work/4.JPG", "assets/images/work/5.JPG"],
+        "text": "The AerotriX Super Challenge is a national level competition that gives students another reason to follow their passion of aeromodelling. \n\nIn its first year itself, the competition was honored by Limca Book of Records for being India's Largest Aeromodelling Competition. AerotriX has continued on this achievement to encourage more students towards aeromodelling and Engineering!"
+      }
+    ]
   },
-  "contact": {
+  "portfolio": {
+    "title": "",
+    "images": [
+      {
+        "name": "",
+        "url": "assets/images/art/1.PNG",
+        "text": "",
+        "cols": 2,
+        "rows": 5
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/4.PNG",
+        "text": "",
+        "cols": 2,
+        "rows": 4
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/3.PNG",
+        "text": "",
+        "cols": 1,
+        "rows": 3
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/7.PNG",
+        "text": "",
+        "cols": 1,
+        "rows": 3
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/9.PNG",
+        "text": "",
+        "cols": 2,
+        "rows": 4
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/6.PNG",
+        "text": "",
+        "cols": 2,
+        "rows": 4
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/5.PNG",
+        "text": "",
+        "cols": 1,
+        "rows": 3
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/10.PNG",
+        "text": "",
+        "cols": 1,
+        "rows": 3
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/2.PNG",
+        "text": "",
+        "cols": 2,
+        "rows": 4
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/11.PNG",
+        "text": "",
+        "cols": 2,
+        "rows": 5
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/12.PNG",
+        "text": "",
+        "cols": 2,
+        "rows": 3
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/15.PNG",
+        "text": "",
+        "cols": 1,
+        "rows": 3
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/14.PNG",
+        "text": "",
+        "cols": 1,
+        "rows": 3
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/13.PNG",
+        "text": "",
+        "cols": 1,
+        "rows": 3
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/16.PNG",
+        "text": "",
+        "cols": 1,
+        "rows": 3
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/17.PNG",
+        "text": "",
+        "cols": 2,
+        "rows": 5
+      },
+      {
+        "name": "",
+        "url": "assets/images/art/18.PNG",
+        "text": "",
+        "cols": 2,
+        "rows": 4
+      }
+    ]
 
   }
 }
