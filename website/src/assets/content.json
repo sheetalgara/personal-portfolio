@@ -1,7 +1,9 @@
 {
   "header": {
     "title": "SG",
-    "menu": [{"name":  "Art", "path": "art", "class": ""},
+    "menu": [
+      {"name":  "Home", "path": "home", "class": ""},
+      {"name":  "Art", "path": "art", "class": ""},
       {"name":  "Work", "path": "work", "class": ""},
       {"name":  "Contact", "path": "contact", "class": ""}]
   },
@@ -19,10 +21,6 @@
       {
         "src": "assets/images/wallpapers/6.PNG",
         "quote": "capturing moments."
-      },
-      {
-        "src": "assets/images/wallpapers/6.PNG",
-        "quote": "creating usable and discoverable products."
       }
     ]
 
