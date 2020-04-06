@@ -50,7 +50,11 @@
       }
       .time-line-text:hover{
         box-shadow: 5px 4px 5px 1px $blue;
+        h3{
+          text-decoration: underline;
+        }
       }
+
 
       .triangle-right {
         width: 0;

@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'website';
+
+  openWindow(link: string) {
+    window.open(link, '_blank');
+  }
 }
