@@ -3,6 +3,7 @@
     <div class="content left" >
       <ng-template [ngIf]="item.direction == allAlignments.Left">
         <div class="time-line-text" (click)="openDialog(item)">
+          <div class = "date-container"><span>{{item.date}}</span></div>
           <h3>{{item.title}}</h3>
         </div>
         <div class = "triangle-right">
@@ -21,6 +22,7 @@
 
         </div>
         <div class="time-line-text" (click)="openDialog(item)">
+          <div class = "date-container"><span>{{item.date}}</span></div>
           <h3>{{item.title}}</h3>
         </div>
       </ng-template>

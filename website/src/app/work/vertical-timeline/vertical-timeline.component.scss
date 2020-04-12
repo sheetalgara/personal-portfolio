@@ -46,7 +46,14 @@
         p,h3{
           color: $white;
         }
+        h3{
+          margin-top: 5px;
+        }
         padding: 10px;
+        .date-container{
+            font-size: 0.8em;
+            text-align: right !important;
+        }
       }
       .time-line-text:hover{
         box-shadow: 5px 4px 5px 1px $blue;

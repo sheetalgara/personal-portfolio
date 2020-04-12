@@ -4,8 +4,8 @@
     "menu": [
       {"name":  "Home", "path": "home", "class": ""},
       {"name":  "Art", "path": "art", "class": ""},
-      {"name":  "Work", "path": "work", "class": ""},
-      {"name":  "Contact", "path": "contact", "class": ""}]
+      {"name":  "Work", "path": "work", "class": ""}
+      ]
   },
   "home": {
     "title": "Hi ! This is",
@@ -56,6 +56,7 @@
       {
         "circleText": "",
         "title": "AeroTriX Super challenge '13",
+        "date": "March 2013",
         "images": ["assets/images/work/4.JPG", "assets/images/work/5.JPG"],
         "text": "The AerotriX Super Challenge is a national level competition that gives students another reason to follow their passion of aeromodelling. \n\nIn its first year itself, the competition was honored by Limca Book of Records for being India's Largest Aeromodelling Competition. AerotriX has continued on this achievement to encourage more students towards aeromodelling and Engineering!"
       }
